@@ -27,7 +27,7 @@
 
 You need:
 + Internet access
-+ a Google identity - you have one with a gmail account for example.
++ a Google identity - you have one with a gmail account for example
 
 ### 1 - Install gcloud command line tool on local machine
 + See [gcould install guide](https://cloud.google.com/sdk/docs/quickstarts)
@@ -210,7 +210,7 @@ Olivier@myserver:~/notebooks$ jupyter notebook --no-browser --port=8888
 All good.  
 You can start working !
 
-### 11 - Stop of delete you VM when you are finished
+### 11 - Stop or delete you VM when you are finished
 
 Be careful it is all too easy to forget !
 
