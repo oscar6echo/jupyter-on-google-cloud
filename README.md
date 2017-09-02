@@ -50,7 +50,7 @@ My recommendation is to it from the the [gcloud console](https://console.cloud.g
 
 + Go to [gcloud console](https://console.cloud.google.com/)
 + Create a new project e.g. remotejupyterserver
-![](google_cloud_create_project.png)
+![](img/google_cloud_create_project.png)
 + Enable billing for this project, if necessary
     + See [Google help page](https://support.google.com/cloud/answer/6288653#new-billing)
     + Check out [Google Platform Free Tier](https://cloud.google.com/free/)
@@ -122,7 +122,7 @@ gcloud compute --project "remotejupyter" ssh --zone "europe-west3-b" "myserver"
 The ssh keys are not necessary if you log in the VM from the SSH / Open in browser window drop down menu.
 + from [gcloud console](https://console.cloud.google.com/) / Compute Engine / VM instances, click on the SSH button for your VM
 
-![](compute_engine_instance_ssh.png)
+![](img/compute_engine_instance_ssh.png)
 
 
 ### 7 - Install software on remote VM
@@ -205,7 +205,7 @@ Olivier@myserver:~/notebooks$ jupyter notebook --no-browser --port=8888
 
 + Open web browser to `localhost:8888`
 + Paste the token from the jupyter server as requested
-![](jupyter_notebook_login.png)
+![](img/jupyter_notebook_login.png)
 
 All good.  
 You can start working !
@@ -214,7 +214,7 @@ You can start working !
 
 Be careful it is all too easy to forget !
 
-![](sadpuppy_nocredits.png)
+![](img/sadpuppy_nocredits.png)
 
 Stopping a VM does not delete is completely and consequently carries residual costs.  
 See [Google doc](https://cloud.google.com/compute/docs/instances/stopping-or-deleting-an-instance#billing_for_stopped_instances)
@@ -228,7 +228,7 @@ Several ways to do that from [gcloud console]() / Compute Engine:
 + You may also create an image from a snapshot and create an instance from an image
 + For more info about images and snapshots, see the [doc](https://cloud.google.com/compute/docs/disks/create-snapshots). Essentially snapshots are faster and cheaper
 
-## C - More with Jupyter and GCloud
+## C - More with Jupyter on Google Cloud
 
 The following pages describe more specific Jupyter installations:
 + [Running Jupyter notebooks on GPU on Google Cloud](https://medium.com/google-cloud/running-jupyter-notebooks-on-gpu-on-google-cloud-d44f57d22dbd) with main packages [tensorflow](https://www.tensorflow.org/) and [keras](https://keras.io/)
