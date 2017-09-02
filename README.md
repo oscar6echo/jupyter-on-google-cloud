@@ -2,21 +2,21 @@
 
 ## A - Overview
 
-Why do that instead of a local Jupyter, which is even simpler to [install and run](http://jupyter.readthedocs.io/en/latest/install.html#installing-jupyter-using-anaconda-and-conda) ?
+### Why do that instead of a local Jupyter, which is even simpler to [install and run](http://jupyter.readthedocs.io/en/latest/install.html#installing-jupyter-using-anaconda-and-conda) ?
 + Because you can access a powerful machine, with big CPU/GPU, RAM, disk space, etc.
 + Typical use case: Machine learning.
 
-Any difference ?
+### Any difference ?
 + You need internet access.
 + The cloud machine is Linux.
 
-How long does it take to set up ?
+### How long does it take to set up ?
 + Less than 5mn the first time, the longest part is required only once.
 + Less than 1mn if you install Miniconda and have all the bash scripts ready.
 + The longest part is the Anaconda installation itself.
 + Less than 30s from the second time if you have created a disk snapshot from the first installation.
 
-How much does it cost ?
+### How much does it cost ?
 + It depends on the type of machine (VM) you use, and how long.
 + See Google Cloud [Compute Engine pricing](https://cloud.google.com/compute/pricing).  
 + **IMPORTANT**: Do not forget to stop your VM after you're done to avoid paying for nothing.
