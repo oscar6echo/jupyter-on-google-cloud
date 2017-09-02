@@ -14,7 +14,7 @@ How long does it take to set up ?
 + Less than 5mn the first time, the longest part is required only once.
 + Less than 1mn if you install Miniconda and have all the bash scripts ready.
 + The longest part is the Anaconda installation itself.
-+ Less than 30s from the second time if you have created an image from the first installation.
++ Less than 30s from the second time if you have created a disk snapshot from the first installation.
 
 How much does it cost ?
 + It depends on the type of machine (VM) you use, and how long.
