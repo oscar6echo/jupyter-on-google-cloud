@@ -221,7 +221,7 @@ See [Google doc](https://cloud.google.com/compute/docs/instances/stopping-or-del
 
 Before deleting a VM, you might want to take a snapshot of the VM persistent disk to quickly back up the disk so you can recover lost data, transfer contents to a new disk.  
 
-Several ways to do that from [gcloud console]() / Compute Engine:
+Several ways to do that from [gcloud console](https://console.cloud.google.com/) / Compute Engine:
 + In menu Snapshots, take a snapshot of the VM disk. You must stop the VM to do so
 + In the VM dashboard, untick _Delete boot disk when instance is deleted_ to make sure you will not lose anything
 + You can then create a new instance by choosing as boot disk this snapshot
